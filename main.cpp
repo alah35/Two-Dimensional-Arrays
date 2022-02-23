@@ -1,5 +1,5 @@
 #include <iostream>
 #include "Tasks/Tasks.h"
 int main() {
-   task6();
+   task7();
 }
