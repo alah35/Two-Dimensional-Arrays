@@ -11,3 +11,4 @@
 #include "Task6/Task6.cpp"
 #include "Task7/Task7.cpp"
 #include "Task8/Task8.cpp"
+#include "Task9/Task9.cpp"
