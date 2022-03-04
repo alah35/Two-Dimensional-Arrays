@@ -28,7 +28,7 @@ bool isValid(int l) {
 void make_slice(std::vector<std::vector<std::vector<int>>> &v, int l, bool (&s)[5][5]) {
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
-            v[i][j].size() >= l ? s[i][j] = true : s[i][j] = false;
+            s[i][j] = v[i][j].size() >= l;
         }
     }
 }
